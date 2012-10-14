@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Plugin
- * @subpackage  Content.loadmodule
+ * @subpackage  Content.loadsc
  *
  * @copyright   Copyright (C) 2005 - 2012 Open Source Matters, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -14,10 +14,10 @@ defined('_JEXEC') or die;
  * This uses the {loadmodule} syntax
  *
  * @package     Joomla.Plugin
- * @subpackage  Content.loadmodule
+ * @subpackage  Content.loadsc
  * @since       1.5
  */
-class plgContentLoadmodule extends JPlugin
+class plgContentLoadSC extends JPlugin
 {
 	protected static $modules = array();
 
