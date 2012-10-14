@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content">
+	<name>plg_content_loadsc</name>
+	<author>Joomla! Project</author>
+	<creationDate>November 2005</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_LOADSC_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="loadsc">loadsc.php</filename>
+		<filename>index.html</filename>
+		<filename>loadsctext.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_loadsc.ini</language>
+		<language tag="en-GB">en-GB.plg_content_loadsc.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="style" type="list"
+					default="table"
+					description="PLG_LOADSC_FIELD_STYLE_DESC"
+					label="PLG_LOADSC_FIELD_STYLE_LABEL">
+					<option value="table">PLG_LOADSC_FIELD_VALUE_TABLE</option>
+					<option value="horz">PLG_LOADSC_FIELD_VALUE_HORIZONTAL</option>
+					<option value="xhtml">PLG_LOADSC_FIELD_VALUE_DIVS</option>
+					<option value="rounded">PLG_LOADSC_FIELD_VALUE_MULTIPLEDIVS</option>
+					<option value="none">PLG_LOADSC_FIELD_VALUE_RAW</option>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>
